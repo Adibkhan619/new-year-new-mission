@@ -1,11 +1,16 @@
 * {
     margin: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
+
 }
 
-body{max-width:1340px;
+body {
+    max-width: 1340px;
     margin: 0 auto;
-    }
+}
 
 .head-section {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
@@ -22,18 +27,166 @@ body{max-width:1340px;
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
-   padding-top:177px;
-   padding-bottom: 20px;
+    padding-top: 177px;
+    padding-bottom: 20px;
 
 }
 
 .head-title {
     color: #FFF;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
     width: 632px;
     text-align: center;
     padding: 0 340px;
 
+}
+
+/*========== MAIN SECTION========== */
+
+main {
+    text-align: center;
+}
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 120px;
+
+}
+
+.hoilday-deals {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 48px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.sticker {
+    width: 802.9px;
+    height: 500px;
+}
+
+
+/* ======= Party Invitation ====== */
+
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.party-sticker{
+    margin-top: 68px;
+    margin-right: 138px;
+    width: 319.83px;
+    height: 464.662px;
+    /* align-items: center;
+    display: block; */
+    /* align-items: center; */
+}
+
+
+.party-welcome {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    text-align: left;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.party-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 126px;
+    text-align: left;
+    width: 697px;
+}
+
+.join-btn {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.221);
+    padding: 25px 40px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 25px 160px;
+}
+
+.join-btn:hover {
+    background-color: aliceblue;
+    color: #070211;
+
+}
+
+/* ======= Party Location ====== */
+
+.time-location {
+    margin-top: 120px;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    color: #070211;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.red-text {
+    color: #F00;
+}
+
+.join-btn-two {
+    margin-top: 64px;
+    padding: 16px 32px;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
