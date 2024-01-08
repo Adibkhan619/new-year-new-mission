@@ -15,6 +15,9 @@ body {
     align-items: center;
 }
 
+
+/* =================== NEW YEAR BANNER ================== */
+
 .head-section {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
     width: 1320px;
@@ -25,8 +28,6 @@ body {
     align-items: center;
     margin: 50px auto;
     margin-bottom: 0;
-
-
 }
 
 .head-one {
@@ -38,8 +39,6 @@ body {
     padding-top: 177px;
     padding-bottom: 20px;
     margin: auto;
-    
-
 }
 
 .head-title {
@@ -50,7 +49,6 @@ body {
     width: 632px;
     text-align: center;
     padding: 0 340px;
-
 }
 
 /*========== MAIN SECTION========== */
@@ -97,7 +95,7 @@ main {
 }
 
 
-/* ======= Party Invitation ====== */
+/* =============== PARTY INVITATION =============== */
 
 .party {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
@@ -165,7 +163,7 @@ main {
 
 }
 
-/* ======= Party Location ====== */
+/* =============== PARTY LOCATION ============== */
 
 .time-location {
     margin: 120px auto;
@@ -198,6 +196,13 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+.join-btn-two:hover{
+    background:rgb(206, 0, 0) ;
+}
+
+
+/* ==================== OUR PORTFOLIO =============== */
+
 
 .portfolio {
     width: 1320px;
@@ -243,22 +248,22 @@ main {
     gap: 24px;
 }
 
-.newsletter{
-    padding-top:120px;
+
+/* ====================== NEWSLETTER =================== */
+
+.newsletter {
+    padding-top: 120px;
     width: 1320px;
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
     margin: 120px auto;
-    
-
 }
 
 .newsletter>img {
     width: 150px;
     height: 150px;
-
 }
 
 .newsletter-title {
@@ -280,7 +285,48 @@ main {
     margin: 22px auto;
 }
 
+.newsletter-button{
+    padding-top: 26px;
 
+}
+.email-input {
+    /* box design */
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0;
+
+    /* text input field */
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.subscribe-btn {
+    height: 72px;
+    width: 210px;
+    margin-left: -5px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.subscribe-btn:hover{
+    background-color: rgb(255, 177, 21);
+    color: #070211;
+}
 
 
 
@@ -295,14 +341,15 @@ footer {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
-.footer-top-section{
+
+.footer-top-section {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-left{
+.footer-left {
     width: 375px;
     height: 80px;
     margin: 120px auto 50px 140px;
@@ -310,14 +357,14 @@ footer {
     line-height: 40px;
 }
 
-.footer-right{
-    
+.footer-right {
+
     width: 210px;
     height: 0px;
     margin: 120px 291px 50px auto;
 }
 
-.footer-right> p{
+.footer-right>p {
     text-align: left;
     width: 280px;
     height: 20px;
@@ -326,10 +373,10 @@ footer {
 .footer-right img {
     width: 24px;
     height: 24px;
-    padding-right: 20px;   
+    padding-right: 20px;
 }
 
-.social-links{
+.social-links {
     width: 1320px;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -337,16 +384,15 @@ footer {
     margin: 0 auto;
 }
 
-.social-links a img{
+.social-links a img {
     padding: 12px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-bottom p{
+.footer-bottom p {
     padding: 50px 140px 120px 140px;
 }
-
